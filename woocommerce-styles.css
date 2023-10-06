@@ -1,0 +1,38 @@
+.woocommerce bdi {
+    color: #ddd;
+}
+
+.woocommerce .product {
+    color: #ddd;
+}
+
+
+.product {
+    display: flex;
+    flex-wrap: wrap;
+}
+.woocommerce-product-gallery__wrapper{
+}
+
+.woocommerce-product-gallery {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.woocommerce-tabs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tabs a {
+    color: rgb(255, 255, 255);
+}
+
+.summary {
+    padding: 40px;
+}
+.woocommerce .button {
+    background-color: bisque;
+    margin-top: 5px;
+}

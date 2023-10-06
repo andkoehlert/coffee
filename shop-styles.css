@@ -1,0 +1,104 @@
+/* Reset some default styles */
+body {
+    background: #2d2424;
+}
+
+.woocommerce {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.woocommerce .content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.woocommerce .article {
+    flex: 0 1 calc(25% - 20px);
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+    color: #ddd;
+    padding: 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .woocommerce .article {
+        flex: 0 1 calc(48% - 20px);
+    }
+}
+
+.woocommerce ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.woocommerce ul li {
+    flex: 0 1 calc(25% - 20px);
+    margin: 0 20px 20px 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.woocommerce ul img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.woocommerce h2 {
+    font-size: medium;
+    color: rgb(221, 151, 21);
+    text-decoration: none; /* Removes underline */
+}
+
+.woocommerce h3 {
+    font-size: medium;
+    color: rgb(221, 151, 21);
+    text-decoration: none; /* Removes underline */
+}
+
+.woocommerce .widget {
+    padding: 5px;
+    margin-bottom: 5px;
+    max-width: 500px;
+    color: #ddd;
+}
+
+.woocommerce .widget a {
+    display: inline-block;
+    padding: 5px 8px; /* Adjust padding for left and right */
+    margin-right: 5px; /* Adjust spacing between items */
+    font-size: 12px; /* Adjust font size as needed */
+}
+
+@media (max-width: 768px) {
+    .woocommerce .widget a {
+        display: block; /* Change to a block layout on smaller screens */
+        margin-bottom: 5px; /* Adjust spacing between items */
+    }
+}
+
+.woocommerce .button {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 5px 10px;
+    text-decoration: none; /* Removes underline */
+    color: #333;
+    font-size: 14px;
+    display: inline-block;
+}
+
